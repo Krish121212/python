@@ -1,4 +1,4 @@
-str1 = "Hello"
-str2 = "World"
+str1 = "Krishna"
+str2 = "Kishore"
 result = str1 + " " + str2
 print(result)
