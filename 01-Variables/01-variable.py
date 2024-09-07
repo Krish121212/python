@@ -30,7 +30,14 @@ print(list_test)
 tuple_test = ( "krishna", "kishore", "Malladi" ) # can add more to list, immutable
 print(tuple_test)
 
+# Dict
+test_dict = {'a': 1, 'b': 2}
+print(test_dict)
 
+# Set
+# consider the values in an arbitrary way
+test_set = {'a', 'b', "abc"}
+print(test_set)
 
 
 
