@@ -23,12 +23,14 @@ d= 'I\'m krishna'
 print(a,b,c,d)
 
 # List
-list_test = ["krishna", "kishore", "Malladi"]
+list_test = ["krishna", "kishore", "Malladi"] # can add more to list, mutable
 print(list_test)
 
 # Tuple
-tuple_test = ( "krishna", "kishore", "Malladi" )
+tuple_test = ( "krishna", "kishore", "Malladi" ) # can add more to list, immutable
 print(tuple_test)
+
+
 
 
 
