@@ -40,7 +40,7 @@ test_set = {'a', 'b', "abc"}
 print(test_set)
 
 # type() function --> prints the data type of the variable.
-print(type(list_test))
+print(type(server_names))
 
 # Operations
 # Add, Sub, Multi - not writing for this
