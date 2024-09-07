@@ -32,6 +32,10 @@ print(server_names[1]) # prints 2nd element. first element starts with Zero
 print(len(server_names)) # length i.e how many elements are there.
 print(new_list) # new list with 0 & 1 elements are created, 2 won't
 
+numbers = [2, 1, 101, 91, 51]
+numbers.sort()
+print(numbers)
+
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
 print(type(tuple_test))
