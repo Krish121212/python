@@ -42,6 +42,18 @@ print(test_set)
 # type() function --> prints the data type of the variable.
 print(type(list_test))
 
+# Operations
+# Add, Sub, Multi - not writing for this
+# Divide 
+x=100
+y=5
+z=x/y
+print(z)
+
+# Integer division
+# Modulo division
+
+
 
 
 
