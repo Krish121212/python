@@ -27,6 +27,8 @@ server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
 server_names.append("backend2")
 server_names.remove("Backend")
 print(server_names)
+print(server_names[1]) # prints 2nd element
+
 
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
