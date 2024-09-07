@@ -36,7 +36,7 @@ numbers = [2, 1, 101, 91, 51]
 numbers.sort()
 print(numbers)
 
-    # Random values
+    # Random values, List can store any data types-number,string etc 
 random_values = ["krishna", '1', "DB", 2.3, "True" ]
 print(random_values)
 
