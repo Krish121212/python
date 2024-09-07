@@ -28,7 +28,7 @@ server_names.append("backend2")
 server_names.remove("Backend")
 print(server_names)
 print(server_names[1]) # prints 2nd element. first element starts with Zero
-print(len(server_names))
+print(len(server_names)) # length i.e how many elements are there.
 
 
 # Tuple
