@@ -20,8 +20,18 @@ This is multi line string
 """
 # when to use which string. d fails(hence i gave \ - it acts as escape sequence), e runs
 d= 'I\'m krishna'
-e= "i'm Krishna"
-print(a,b,c,d,e)
+print(a,b,c,d)
+
+# List
+list_test = ["krishna", "kishore", "Malladi"]
+print(list_test)
+
+# Tuple
+tuple_test = ( "krishna", "kishore", "Malladi" )
+print(tuple_test)
+
+
+
 
 
 
