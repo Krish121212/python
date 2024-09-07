@@ -8,4 +8,8 @@ a=10
 b=3.24
 print(a,b)
 
+# Python is case sensitive in booleon True and true are different.
+c= True
+print(c)
+
 
