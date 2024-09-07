@@ -28,6 +28,7 @@ print(server_names)
 
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
+tuple_test.append("backend2")
 print(type(tuple_test))
 
 # Dict
