@@ -68,12 +68,3 @@ e=x%y # Modulo division means getting remainder
 print(z)
 print(w)
 print(e)
-
-
-
-
-
-
-
-
-
