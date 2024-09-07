@@ -40,7 +40,7 @@ test_set = {'a', 'b', "abc"}
 print(test_set)
 
 # type() function --> prints the data type of the variable.
-print(type(list_test,tuple_test))
+print(type(list_test))
 
 
 
