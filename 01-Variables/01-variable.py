@@ -25,7 +25,7 @@ print(a,b,c,d)
 # List
 server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
 server_names.append("backend2")
-server_names.remove("backend")
+server_names.remove("Backend")
 print(server_names)
 
 # Tuple
