@@ -24,11 +24,11 @@ print(a,b,c,d)
 
 # List
 server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
+server_names.append("backend2")
 print(server_names)
 
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
-tuple_test.append("backend2")
 print(type(tuple_test))
 
 # Dict
