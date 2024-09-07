@@ -23,11 +23,11 @@ d= 'I\'m krishna'
 print(a,b,c,d)
 
 # List
-list_test = ["krishna", "kishore", "Malladi"] # can add more to list, mutable
-print(list_test)
+server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
+print(server_names)
 
 # Tuple
-tuple_test = ( "krishna", "kishore", "Malladi" ) # can add more to list, immutable
+tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can add more to list, immutable
 print(tuple_test)
 
 # Dict
@@ -44,6 +44,7 @@ print(type(list_test))
 
 # Operations
 # Add, Sub, Multi - not writing for this
+
 # Divide 
 x=100
 y=5
@@ -52,8 +53,7 @@ w=x//y # int value will come
 print(z)
 print(w)
 
-# Integer division
-# Modulo division
+# Modulo division meanss getting remainder
 
 
 
