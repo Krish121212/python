@@ -50,6 +50,7 @@ y=5
 z=x/y # By default answer would be float data type
 w=x//y # int value will come
 print(z)
+print(w)
 
 # Integer division
 # Modulo division
