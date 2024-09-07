@@ -27,7 +27,7 @@ server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
 print(server_names)
 
 # Tuple
-tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can add more to list, immutable
+tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
 print(tuple_test)
 
 # Dict
