@@ -18,8 +18,8 @@ b= "This is also Krishna"
 c= """
 This is multi line string
 """
-# when to use which string. d fails, e runs
-d= 'I'm krishna'
+# when to use which string. d fails(hence i gave \ - it acts as escape sequence), e runs
+d= 'I\'m krishna'
 e= "i'm Krishna"
 
 
