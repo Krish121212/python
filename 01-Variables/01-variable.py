@@ -38,6 +38,7 @@ print(numbers)
 
     # Random values
 random_values = ["krishna", '1', "DB", 2.3, "True" ]
+print(random_values)
 
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
