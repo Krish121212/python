@@ -47,7 +47,8 @@ print(type(list_test))
 # Divide 
 x=100
 y=5
-z=x/y
+z=x/y # By default answer would be float data type
+w=x//y # int value will come
 print(z)
 
 # Integer division
