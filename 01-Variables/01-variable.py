@@ -28,7 +28,7 @@ print(server_names)
 
 # Tuple
 tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple, immutable
-print(tuple_test)
+print(type(tuple_test))
 
 # Dict
 test_dict = {'a': 1, 'b': 2}
