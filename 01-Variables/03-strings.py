@@ -6,3 +6,6 @@ print(sample_string[9])
 
 # slicing
 print(sample_string[11:17])
+print(sample_string[:])
+
+
