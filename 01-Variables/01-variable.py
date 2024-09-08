@@ -61,9 +61,10 @@ sample_dict[4]= 100
 print(sample_dict)
 
 # Set
-    # It provides unique elements that are provided inside a variable
+    # It provides unique elements that are provided inside a variable, IT's USED FOR ONLY THAT PURPOSE
     # sets don't consider the order of insertion
     # mutable datatype
+    # They don't support indexing, So if you give print(test_set[2]), it fails
 test_set = {1,2,23,3,2,1,5,6}
 print(test_set)
     # adding elements to the data type
