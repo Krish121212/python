@@ -9,7 +9,7 @@ sample_str_list = tuple(sample_str)
 print(sample_str_list)
 
 # Accepting input from a user
-user_input= "Enter a number:-"
+user_input= input("Enter a number:-")
 print(user_input)
 
 
