@@ -55,9 +55,15 @@ print(sample_dict[3]) # o/p=15
         # can give like this
 sample_dict= {(1,2,3,4): 1, 2: 5, 3: 9} 
 print(sample_dict[(1,2,3,4)])
+    # Adding elements to a dict
+sample_dict= {1: 1, 2: 5, 3: 9}
+sample_dict[4]= {100}
+print(sample_dict)
 
 # Set
-    # consider the values in an arbitrary way
+    # It provides unique elements that are provided inside a variable
+    # sets don't consider the order of insertion
+    # mutable datatype
 test_set = {1,2,23,3,2,1,5,6}
 print(test_set)
 
