@@ -57,8 +57,8 @@ sample_dict= {(1,2,3,4): 1, 2: 5, 3: 9}
 print(sample_dict[(1,2,3,4)])
 
 # Set
-# consider the values in an arbitrary way
-test_set = {'a', 'b', "abc"}
+    # consider the values in an arbitrary way
+test_set = {1,2,23,3,2,1,5,6}
 print(test_set)
 
 # type() function --> prints the data type of the variable.
