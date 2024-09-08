@@ -29,6 +29,9 @@ print(sample_join, type(sample_join)) # converting that list in split to string 
 sample_count= sample_string.count('s') # counts s in above string
 print(sample_count)
 
+sample_strip= "     This is Krishna. I work on tools related to DEVOPS      "
+samplestrip= sample_strip.strip()
+print(samplestrip)
 
 
 
