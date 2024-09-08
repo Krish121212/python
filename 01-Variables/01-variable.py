@@ -45,8 +45,8 @@ tuple_test = ( "krishna", "kishore", "Malladi", "db" ) # can't add more to tuple
 print(type(tuple_test))
 
 # Dict
-test_dict = {'a': 1, 'b': 2} # immutable data type 
-print(test_dict)
+sample_dict= {1: 1, 2: 5, 3: 9}
+print(sample_dict[3])
 
 # Set
 # consider the values in an arbitrary way
