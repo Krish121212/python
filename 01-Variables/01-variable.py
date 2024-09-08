@@ -26,6 +26,7 @@ print(a,b,c,d)
 server_names = ["DB", "Backend", "Frontend"] # can add more to list, mutable
 server_names.append("backend2")
 server_names.remove("Backend")
+server_names.extend("Java", "Python", ".net")
 new_list= server_names[0:2]
 print(server_names)
 print(server_names[1]) # prints 2nd element. first element starts with Zero
