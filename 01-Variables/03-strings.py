@@ -23,7 +23,7 @@ sample_split= sample_string.split()
 print(sample_split, type(sample_split)) # split will always get an output of LIST type
 
 # join
-sample_join= sample_split.join()
+sample_join= " ".join(sample_split)
 print(sample_join, type(sample_join))
 
 
