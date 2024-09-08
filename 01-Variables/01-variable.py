@@ -50,8 +50,11 @@ print(sample_dict[3]) # o/p=9
 sample_dict= {1: 1, 2: 5, 3: 9, 3:15} 
 print(sample_dict[3]) # o/p=15
         # they are immutable, so thay can't go with Lists, below is example
-sample_dict= {[1,2,3,4]: 1, 2: 5, 3: 9} 
-print(sample_dict[[1,2,3,4]]) # o/p=9
+# sample_dict= {[1,2,3,4]: 1, 2: 5, 3: 9} 
+# print(sample_dict[[1,2,3,4]])
+        # can give like this
+sample_dict= {(1,2,3,4): 1, 2: 5, 3: 9} 
+print(sample_dict[(1,2,3,4)])
 
 # Set
 # consider the values in an arbitrary way
