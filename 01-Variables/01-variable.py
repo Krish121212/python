@@ -49,7 +49,7 @@ sample_dict= {1: 1, 2: 5, 3: 9}
 print(sample_dict[3]) # o/p=9
 sample_dict= {1: 1, 2: 5, 3: 9, 3:15} 
 print(sample_dict[3]) # o/p=15
-        # they are immutable, so thay can't go with Lists, below is example
+        # They are mutable, But key are immutable
 # sample_dict= {[1,2,3,4]: 1, 2: 5, 3: 9} 
 # print(sample_dict[[1,2,3,4]])
         # can give like this
@@ -66,6 +66,11 @@ print(sample_dict)
     # mutable datatype
 test_set = {1,2,23,3,2,1,5,6}
 print(test_set)
+    # adding elements to the data type
+test_set = {1,2,23,3,2,1,5,6}
+test_set.add(4)
+print(test_set)
+
 
 # type() function --> prints the data type of the variable.
 print(type(server_names))
