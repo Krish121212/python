@@ -17,7 +17,7 @@ print(sample_string[::-1]) # reverse of string
 
 sample_string= "This is my sample string"
 sample_split= sample_string.split()
-print(sample_string, type(sample_string)) # split will always get an output of LIST type
+print(sample_split, type(sample_split)) # split will always get an output of LIST type
 
 
 
