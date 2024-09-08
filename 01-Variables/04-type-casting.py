@@ -10,6 +10,9 @@ print(sample_str_list)
 
 # Accepting input from a user
 user_input= input("Enter a number:-")
-print(user_input)
+print(user_input, type(user_input))
+
+add_88 = int(user_input) + 88
+print(add_88)
 
 
