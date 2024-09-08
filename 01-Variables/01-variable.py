@@ -57,7 +57,7 @@ sample_dict= {(1,2,3,4): 1, 2: 5, 3: 9}
 print(sample_dict[(1,2,3,4)])
     # Adding elements to a dict
 sample_dict= {1: 1, 2: 5, 3: 9}
-sample_dict[4]= {100}
+sample_dict[4]= 100
 print(sample_dict)
 
 # Set
