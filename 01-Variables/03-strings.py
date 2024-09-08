@@ -5,4 +5,4 @@ sample_string= "This is my sample string"
 print(sample_string[9])
 
 # slicing
-print(sample_string[12:19])
+print(sample_string[11:17])
