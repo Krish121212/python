@@ -6,6 +6,7 @@ print(sample_string[9])
 
 # slicing
 print(sample_string[11:17])
+ # for string we need to give start:end:step size --> But they are optional
 print(sample_string[:]) # you can get complete string i.e "This is my sample string"
 print(sample_string[5:]) # print started from 5th character as we specified starting point as 5
 print(sample_string[:5]) # starting five letters will come as we specified end point as 5
