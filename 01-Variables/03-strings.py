@@ -26,6 +26,9 @@ print(sample_split, type(sample_split)) # split will always get an output of LIS
 sample_join= " ".join(sample_split) # " " to add space
 print(sample_join, type(sample_join)) # converting that list in split to string using join
 
+sample_count= sample_string.count('s') # counts s in above string
+print(sample_count)
+
 
 
 
