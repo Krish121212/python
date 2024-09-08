@@ -8,4 +8,8 @@ sample_str = "This is Python and Im krishna"
 sample_str_list = tuple(sample_str)
 print(sample_str_list)
 
+# Accepting input from a user
+user_input= "Enter a number:-"
+print(user_input)
+
 
