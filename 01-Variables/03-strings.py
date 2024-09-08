@@ -13,11 +13,18 @@ print(sample_string[:5]) # starting five letters will come as we specified end p
 print(sample_string[::2]) # starting,ending ae not specified - but step size is 2. so every two alternate alphabet will be printed
 print(sample_string[::-1]) # reverse of string
 
+
+
 # common functions used on a string - split(), Join(), format(), count(), strip()
 
 sample_string= "This is my sample string"
+# split
 sample_split= sample_string.split()
 print(sample_split, type(sample_split)) # split will always get an output of LIST type
+
+# join
+sample_join= sample_split.join()
+print(sample_join, type(sample_join))
 
 
 
