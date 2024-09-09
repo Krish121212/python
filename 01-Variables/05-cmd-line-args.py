@@ -17,6 +17,13 @@ operation= sys.argv[2]
 num2= float(sys.argv[3])
 
 # to call the function
-if operation == "add":
+if operation == "add": # == comparing, = assigning
     output = add(num1, num2)
     print(output)
+elif operation == "sub":
+    output = sub(num1, num2)
+    print(output)
+elif operation == "mul":
+    output = mul(num1, num2)
+    print(output)
+
