@@ -2,7 +2,7 @@
 num1 = 100
 num2 = 20
 
-def addition():
+def addition(): # function defination
     addition= num1 + num2
     print(addition)
 
@@ -14,3 +14,6 @@ def mul():
     mul= num1 + num2
     print(mul)
 
+addition() # This is invoking the function. Without this no output.
+sub()
+mul()
