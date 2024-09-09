@@ -1,2 +1,3 @@
-for i in range(10):
-    print("Python")
+for i in range(5):
+    print("krishna")
+    print("kishore")
