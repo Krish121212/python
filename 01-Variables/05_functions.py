@@ -17,4 +17,3 @@ def mul():
 addition() # This is invoking the function. Without this no output.
 sub() # Without these it will read till line number 15 and exit program. So INVOKE THEM
 mul()
-
