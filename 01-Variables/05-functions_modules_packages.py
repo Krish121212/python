@@ -7,11 +7,11 @@ def addition(): # function defination
     print(addition)
 
 def sub():
-    sub= num1 + num2
+    sub= num1 - num2
     print(sub)
 
 def mul():
-    mul= num1 + num2
+    mul= num1 * num2
     print(mul)
 
 addition() # This is invoking the function. Without this no output.
