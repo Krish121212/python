@@ -13,5 +13,5 @@ def mul(num1, num2):
     return mul
 
 print(addition(100, 75)) # This is invoking the function. Without this no output.
-sub() # Without these it will read till line number 15 and exit program. So INVOKE THEM
-mul()
+print(sub(100, 75)) # Without these it will read till line number 15 and exit program. So INVOKE THEM
+print(mul(100, 75))
