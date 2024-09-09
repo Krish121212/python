@@ -18,8 +18,7 @@ num2= float(sys.argv[3])
 
 # to call the function
 if operation == "add": # == comparing, = assigning
-    output = add(num1, num2)
-    print(output)
+    print(add(num1, num2))
 elif operation == "sub":
     output = sub(num1, num2)
     print(output)
