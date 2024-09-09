@@ -11,4 +11,4 @@ elif type == "t4.micro":
 elif type == "t5.micro":
     print("cost is 25rs per hour")
 else:
-    print("enter a type")
+    print("enter a valid type")
